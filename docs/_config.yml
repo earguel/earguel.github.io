@@ -18,12 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Exploring Statistical GIS Mapping Techniques To Forecast Future Presidential Election Outcomes
+email: edgarjarguello@gmail.com
+description: >- # this means to ignore newlines until "baseurl:" Write an awesome description 
+# for your new site here. You can edit this line in _config.yml. It will
+# appear in your document head meta (for Google search results) and in your feed.xml site description.
+ This is the landing page for my Fall 2021 Semester Project for AIT 722, Geo-Social, Data Analytics
+ class at George Mason University (GMU). This project exploits exploratory and explanatory analysis of 
+ specific socio-economic and Temporal variables (i.e. college degree, blue collar worker, etc.) which correlated 
+ with Republican votes in the 2016 Presidential Election.  Geographic Weighted Regression (GWR) analysis will be performed, with new
+ variables (vaccination rates & CDS SVI index) to predict the Democratic vote for the next US Presidential election in 2024.
+of 2024. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

@@ -15,6 +15,9 @@ This web page link below will take you to all the online ArcGis Maps for this pr
 <br>
 <h1 style="font-size:40px;">Exploratory Regression Methods</h1>
 <br>
+We will be examining broad spatial correlations at a national level to find properly specified regression models.  Explanatory variables are ones with high positive correlations 
+as predictors of the percentage Trump vote.  We will use this method to analyze the 2016 election results.  We will then add additional explanatory variables (Vaccination Rates and CDC SVI Index) to 
+explore the relationships that these control variables have with the Democratic votes (dependent variable) in the upcoming 2024 US Presidential Election. 
 <table>
 	<tr>
 		<th>Candidate Explanatory Variables</th>
@@ -62,16 +65,25 @@ This web page link below will take you to all the online ArcGis Maps for this pr
 		<td></td>
 	</tr>
 </table>
-			
+<br>			
 
 
 
 <h1 style="font-size:20px;">Identify battleground counties</h1>
 <br>
-Since the chances of finding a properly specified model increase with more explanatory variables  Let's now focus our analysis on identifying the battleground counties.  
+Since the chances of finding a properly specified model increase with more explanatory variables  Let's now focus our analysis on identifying the battleground counties.  We will now add a calculated field (pGOP_minus_pDEM) using the 2016
+ presidential vote percentages (Republican and Democratic).  We added this new explanatory variables to the counties layer, plus several distance variables to perform spatial analysis and visualize the underlying trends at the county 
+ level which are associated with Trump votes in the 2016 election. This new calculated field variable is simply the difference between the percentage of Republican votes minus the percentage of Democratic votes.  Below is an embedded 
+ map filtered to show only the counties where either Trump or Clinton won with less then 20% of the vote.
 <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="2024 Presidential Election Prediction based on Vaccinations" src="//edgarjarguello.maps.arcgis.com/apps/Embed/index.html?webmap=14132882995940afa0468b12e0417833&extent=-128.3101,26.4699,-63.4029,53.6442&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
 <div> </div>
 <br>
-Below is the Map Results after performing Geographic Weighted Regression (GWR) with control
-variable "Percent with College Degree" and dependent variable "Percent Republican vote for the 2016
-Presidential Election
+<h1 style="font-size:20px;">Geographically Weighted Regression (GWR): Battle Ground States</h1>
+<br>
+We will now use Geographically Weighted Regression (GWR) at the US county level to visualize the correlation between the percentage of votes for Trump and the percentage of blue collar workers.
+Below is the Map Results after performing Geographic Weighted Regression (GWR) with control variable "Percent with College Degree" and dependent variable "Percent Republican vote for the 2016
+Presidential Election.
+<br>
+<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="2016 GWR Blue Collar" src="//edgarjarguello.maps.arcgis.com/apps/Embed/index.html?webmap=745e4ceb15084d62a6350fb2f0d96179&extent=-128.3101,26.4699,-63.4029,53.6442&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
+<br>
+

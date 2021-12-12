@@ -4,42 +4,7 @@ title:  "Exploraroty Regression-Vote Republican 2016"
 date:   2021-12-01 13:27:31 -0500
 categories: jekyll update
 ---
-******************************************************************************
-Choose 1 of 8 Summary
-       Highest Adjusted R-Squared Results       
-AdjR2     AICc   JB K(BP)  VIF   SA   Model           
- 0.45 -4572.62 0.00  0.00 1.00 0.00  -PNEVERMARRIED***
- 0.32 -3917.58 0.00  0.00 1.00 0.00  +PREPPARTY***    
- 0.24 -3562.98 0.00  0.40 1.00 0.00  -PCOLLEGEDEG***  
-       Passing Models       
-AdjR2 AICc JB K(BP) VIF SA   Model
-******************************************************************************
-Choose 2 of 8 Summary
-                Highest Adjusted R-Squared Results               
-AdjR2     AICc   JB K(BP)  VIF   SA   Model                            
- 0.55 -5207.69 0.00  0.00 1.08 0.00  -PNEVERMARRIED***  -PCOLLEGEDEG***
- 0.52 -5025.99 0.00  0.00 1.00 0.00  +PREPPARTY***  -PCOLLEGEDEG***    
- 0.52 -4974.21 0.00  0.00 1.00 0.00  -AVEHHINC16***  -PNEVERMARRIED*** 
-       Passing Models       
-AdjR2 AICc JB K(BP) VIF SA   Model
-******************************************************************************
-Choose 3 of 8 Summary
-                       Highest Adjusted R-Squared Results                       
-AdjR2     AICc   JB K(BP)  VIF   SA   Model                                           
- 0.60 -5581.15 0.00  0.00 1.86 0.00  +PREPPARTY***  -PNEVERMARRIED***  -PCOLLEGEDEG***
- 0.56 -5260.49 0.00  0.00 1.57 0.00  -PSENIORS***  -PNEVERMARRIED***  -PCOLLEGEDEG*** 
- 0.56 -5239.89 0.00  0.00 1.71 0.00  -AVEHHINC16***  +PREPPARTY***  -PNEVERMARRIED*** 
-       Passing Models       
-AdjR2 AICc JB K(BP) VIF SA   Model
-******************************************************************************
-Choose 4 of 8 Summary
-                                Highest Adjusted R-Squared Results                               
-AdjR2     AICc   JB K(BP)  VIF   SA   Model                                                            
- 0.62 -5702.28 0.00  0.00 2.19 0.00  -PSENIORS***  +PREPPARTY***  -PNEVERMARRIED***  -PCOLLEGEDEG***   
- 0.60 -5601.26 0.00  0.00 1.94 0.00  +PREPPARTY***  +PBLUECOLLAR***  -PNEVERMARRIED***  -PCOLLEGEDEG***
- 0.60 -5583.41 0.00  0.00 1.86 0.00  -POPDENS_CY  +PREPPARTY***  -PNEVERMARRIED***  -PCOLLEGEDEG***    
-       Passing Models       
-AdjR2 AICc JB K(BP) VIF SA   Model
+
 ******************************************************************************
 Choose 5 of 8 Summary
                                        Highest Adjusted R-Squared Results                                      

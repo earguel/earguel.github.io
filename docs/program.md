@@ -13,5 +13,5 @@ on the 2016 Presidential Election Data.  The dependent variable we are trying to
 the Percent Republican Vote and the control variable is the percent with College degree for the 
 US Counties
 
-[AecGIS GWR BLUE Collar 2016](https://arcg.is/1bq9XO)
+[AecGIS Battle Ground States 2016](https://arcg.is/1bq9XO)
 			

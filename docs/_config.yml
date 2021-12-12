@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:" Write an awesom
  specific socio-economic and Temporal variables (i.e. college degree, blue collar worker, etc.) which correlated 
  with Republican votes in the 2016 Presidential Election. Further Geographic Weighted Regression (GWR) analysis will be performed 
  with new variables (vaccination rates & CDS SVI index) to predict the Democratic vote in the upcoming 2024 US Presidential election.
-baseurl: "earguel/earguel.github.io/" # the subpath of your site, e.g. /blog
+baseurl: "/github.com/" # the subpath of your site, e.g. /blog
 url: "https://earguel.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll

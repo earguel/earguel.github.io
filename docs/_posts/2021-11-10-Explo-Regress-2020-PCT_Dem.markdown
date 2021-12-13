@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "This is the second posting"
+title:  "Explor Regression Report: 2016 Vote Republican"
 date:   2021-09-13 15:58:51 -0400
 categories: jekyll update
 ---
-Determine which explanatory variables may act as consistent predictors of the 2024
+Determine which explanatory variables may act as consistent predictors for the 2024
 US Presidential Election percentage Democrat vote.
 
 This is a partial print out of the Exploratory Regression report generated using ArcGIS.  

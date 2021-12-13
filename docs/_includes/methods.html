@@ -15,8 +15,10 @@ This web page link below will take you to all the online ArcGis Maps for this pr
 <br>
 <h1 style="font-size:40px;">Exploratory Regression Methods</h1>
 <br>
-We will be examining broad spatial correlations at a national level to find properly specified regression models.  Explanatory variables are ones with high positive or negative correlations 
-as predictors of the dependent variable.  We will use this method to analyze the 2016 election results, specifically to predict the percentage of Trump votes.  We will then add additional 
+We will be examining broad spatial correlations at a national level to find properly specified regression models.  We will apply exploratory Regression to run Ordinary Least Squares (OLS)
+regression for every combination of candidate explanatory variable, up to the max number of variables specified to include in the model. 
+
+Explanatory variables are ones with high positive or negative correlations as predictors of the dependent variable.  We will use this method to analyze the 2016 election results, specifically to predict the percentage of Trump votes.  We will then add additional 
 explanatory variables (Vaccination Rates and CDC SVI Index) to explore the relationships that these control variables have with the Democratic votes (dependent variable) in the upcoming 2024 US Presidential Election. 
 <table>
 	<tr>
@@ -88,6 +90,10 @@ Table below shows the parameters used to run the GWR
 <br>
 <table>
 	<tr>
+		<th>Parameter Name</th>
+		<th>Parameter Value</th>
+	</tr>
+	<tr>
 		<th>Input Features</th>
 		<th>County-Level Data Layer</th>
 	</tr>
@@ -114,5 +120,9 @@ Table below shows the parameters used to run the GWR
 </table>
 <br>			
 <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="2016 GWR Blue Collar" src="//edgarjarguello.maps.arcgis.com/apps/Embed/index.html?webmap=745e4ceb15084d62a6350fb2f0d96179&extent=-128.3101,26.4699,-63.4029,53.6442&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"></iframe></div>
+<br>
+<h1 style="font-size:20px;">Geographically Weighted Regression (GWR): Percent College Degree</h1>
+<br>
+We will now use Geographically Weighted Regression (GWR) at the US county level to visualize the correlation between the percentage of votes for Trump and the percentage of people with We will now use Geographically Weighted Regression (GWR) at the US county level to visualize the correlation between the percentage of votes for Trump and the percentage of people with college degrees.
 <br>
 

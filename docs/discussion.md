@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Discussion
-permalink: /discussion/
+permalink: /program/
 ---
 Here is the ArcGIS link to all Maps for this project
 <br>

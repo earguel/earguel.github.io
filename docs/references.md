@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Third Menu
+title: References
 permalink: /thirdmenu/
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Explor Regression Report: 2016 Vote Republican"
+title:  "Explor Regression Report: 2020 Vote Republican"
 date:   2021-09-13 15:58:51 -0400
 categories: jekyll update
 ---
